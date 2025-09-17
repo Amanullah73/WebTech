@@ -1,0 +1,284 @@
+*{padding: 0;margin: 0;}
+/* body {
+    background-color: aquamarine;
+} */
+
+
+
+
+.home_bg {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* position: fixed; */
+
+}
+
+.home_bg img {
+    width: 100%;
+    height: 90vh;
+
+}
+.trade{
+
+    border: 2px;
+    height: auto;
+    width: 20%;
+    background-color: rgba(255, 0, 0, 0.76);
+    border-radius: 4px;
+    color: white;
+    margin: 5px auto;
+    padding: 7px;
+    width: fit-content;
+
+}
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.item{
+    text-align: justify;
+    padding: 10px;
+}
+
+
+.slider{
+    
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+    gap:50px;
+    padding: 10px 0;
+    margin: 0 17%;
+   
+}
+  
+.slider::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+  
+.item_1 {
+    height: auto;
+    width: 250px;
+    min-width: 250px;
+    flex-shrink: 0;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+
+}
+
+
+
+.info_1 h4{
+    margin: 5px;
+    text-align: center;
+    color: red;
+   
+
+}
+
+.info_1 h5{
+    color: rgb(61, 60, 60);
+    font-size: 15px;
+    padding: 5px;
+    
+} 
+
+.button input[type="button"] {
+    background-color: rgb(78, 191, 153);
+    color: black;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgb(78, 191, 153);
+}
+  
+.button input[type="button"]:hover {
+    background-color: gray;
+    color: white;
+}
+
+.info_2{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 10vh 10wh; */
+}
+.item_2{
+    border: 2px solid white;
+    height: 400px;
+    width: 350px;
+    
+
+}
+.item_2 h3{
+    color: gray;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto ;
+
+}
+
+.item_2 img{
+    width: 350px;
+    height: 200px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+}
+
+.item_2 a{
+    color: rgb(36, 36, 154);
+    float: right;
+    margin-top: 10px;
+}
+
+h2{
+    color: red;
+    text-align: center;
+    display: block;
+    margin-top: 5vh;
+    font-weight: normal;
+}
+.info_3{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.item_3{
+    height: 300px;
+    width: 500px;
+
+}
+.item_3 img{
+    display: block;
+    margin: 0 auto;
+}
+
+.item_3 p{
+    text-align: center;
+}
+
+
+
+.item_4 {
+    height: auto;
+    width: 430px;
+    min-width: 250px;
+    flex-shrink: 0;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+
+}
+
+
+.item_4 img{
+    display: block;
+    height: auto;
+    width: 370px;
+    margin: 30px auto;
+
+}
+
+.item_4 p{
+    line-height: 1.4;
+    font-size: 16px;
+
+}
+
+.footer_1{
+    /* height: auto; */
+    margin-top: 10vh;
+    background-color: rgba(222, 220, 220, 0.589);
+    
+}
+
+.footer_1 h3{
+    color: red;
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.short{
+    display: flex;
+    margin: 0 15% 30px ;
+
+}
+.short img{
+    height: 15px;
+}
+
+.short p{
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.about{
+    margin: 30px 15% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about hr {
+    width: 80px;
+    border: 1px solid #000;
+    margin: 0 auto 20px auto;
+  }
+  
+.about_1{
+    /* height: 250px; */
+    width: 300px;
+    margin-right:40px ;
+}
+.about_2{
+    height: 250px;
+    width: 200px;
+    line-height: 2;
+}
+
+
+.footer_2{
+    height: auto;
+    width: 100%;
+    background-color: rgba(242, 22, 22, 0.828);
+}
+
+.footer_2 .icons{
+    
+    padding: 20px 0;
+    font-size: 20px;
+    margin: 0 15%;
+}
+
+.footer_2 i{
+    padding: 10px;
+}
+
+.icons_2 {
+    /* display: block; */
+    text-align: right;
+    margin: 0 15%;
+    font-size: 18px;
+}
