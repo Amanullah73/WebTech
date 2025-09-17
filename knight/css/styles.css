@@ -1,0 +1,185 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    /* color: white; */
+    font-family: serif;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background: transparent;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+.logo img{
+    display: block;
+    margin: 10px 70px;
+    height: 80%;
+    /* width: 80%; */
+
+
+}
+header .logo{
+    width: 50%;
+    /* background: pink; */
+    /* margin: 20px; */
+
+
+}
+header .link{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* gap: 0px; */
+    justify-content: space-around;
+    /* margin-right: 50px; */
+
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.bg{
+    /* position: relative; */
+}
+.bg img{
+    width: 100%;
+    height: 100vh;
+}
+.line h1{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    /* right: 0%; */
+    font-size: 60px;
+    color: white;
+    /* color: black; */
+}
+.ord .btn{
+    /* border: 2px white solid; */
+    color: black;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    height: 40px;
+    width: 150px;
+    background: rgb(245, 46, 112);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.app{
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+}
+.or{
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    font-size: 16px;
+    color: white;
+}
+.app img{
+    height: 70px;
+    width: 200px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.features h1{
+    text-align: center;
+    color: rgb(73, 72, 72);
+    font-size: 50px;
+    margin: 50px 0;
+}
+
+
+.inner-features{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+.features img{
+    height: 100%;
+}
+.two{
+    position: relative;
+}
+.two img{
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+}
+
+.enjoy_info{
+    position: absolute;
+    color: white;
+    top: 50%;
+}
+.burger img{
+    height: 100%;
+    width: 100%;
+}
+.connect{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(54, 53, 53);
+}
+footer{
+    margin: 5%;
+}
+a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 25px 0;
+}
+.footer_info{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10%;
+}
+footer h2{
+    font-size: 30px;
+    /* color: red; */
+}
+ .icons img{
+    height: 30px;
+    width: 30px;
+    margin: 5px 5px 5px 0px;
+}
+.footer_info2{
+    display: flex;
+    /* justify-content: space-evenly; */
+
+}
+.footer_logo{
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+
+}
+.footer_logo img{
+    margin: 10px;
+}
+.footer_2{
+    display: flex;
+    gap: 10%;
+}
